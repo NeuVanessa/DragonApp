@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "DragonApp",
+    "slug": "DragonApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "DragonApp"
+}
