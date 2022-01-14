@@ -1,5 +1,9 @@
 {
   "main": "index.js",
+  "author": {
+    "name": "Vanessa Lopes",
+    "email": "vanessasamira1996@gmail.com"
+  },
   "scripts": {
     "android": "expo run:android",
     "ios": "expo run:ios",
@@ -7,21 +11,53 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "@expo-google-fonts/lalezar": "^0.2.0",
+    "@expo-google-fonts/ledger": "^0.2.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/bottom-tabs": "^5.11.10",
+    "@react-navigation/material-top-tabs": "5.3.15",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "@unform/core": "^2.1.6",
+    "@unform/mobile": "^2.1.6",
+    "axios": "^0.24.0",
     "expo": "~43.0.2",
+    "expo-app-loading": "~1.2.1",
+    "expo-font": "~10.0.3",
+    "expo-image-picker": "~11.0.3",
     "expo-splash-screen": "~0.13.5",
     "expo-status-bar": "~1.1.0",
     "expo-updates": "~0.10.13",
+    "formik": "^2.2.9",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-elements": "^3.4.2",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-gifted-chat": "^0.16.3",
+    "react-native-magic-move": "^0.6.6",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-paper": "^4.10.1",
     "react-native-reanimated": "~2.2.0",
+    "react-native-responsive-fontsize": "^0.5.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
-    "react-native-web": "0.17.1"
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "12.1.1",
+    "react-native-swiper-flatlist": "^3.0.16",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-video": "^5.2.0",
+    "react-native-web": "0.17.1",
+    "rn-placeholder": "^3.0.3",
+    "styled-components": "^5.3.3",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "replace-in-files-cli": "^2.0.0",
+    "typescript": "~4.3.5"
   },
   "private": true
 }
