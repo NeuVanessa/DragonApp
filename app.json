@@ -3,12 +3,11 @@
     "name": "Dragon Pro",
     "slug": "DragonApp",
     "icon": "./assets/icon.png",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "version": "1.1.0",
+    "assetBundlePatterns": ["**/*"],
     "android": {
-      "package": "com.vanessashirlenee.DragonApp"
+      "package": "com.vanessashirlenee.DragonApp",
+      "versionCode": 1
     }
   },
   "splash": {
